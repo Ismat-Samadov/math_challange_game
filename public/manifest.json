@@ -1,0 +1,20 @@
+{
+  "name": "Math Challenge Game",
+  "short_name": "Math Challenge",
+  "description": "Test your math skills with this interactive challenge game!",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#667eea",
+  "theme_color": "#667eea",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["education", "games"],
+  "screenshots": []
+}

@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 180">
+  <defs>
+    <linearGradient id="grad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="180" height="180" rx="40" fill="url(#grad2)"/>
+
+  <!-- Calculator/Math symbols -->
+  <g fill="white" opacity="0.95">
+    <!-- Plus sign -->
+    <rect x="35" y="45" width="6" height="20" rx="3"/>
+    <rect x="28" y="52" width="20" height="6" rx="3"/>
+
+    <!-- Minus sign -->
+    <rect x="68" y="52" width="20" height="6" rx="3"/>
+
+    <!-- Multiply sign -->
+    <rect x="105" y="45" width="6" height="20" rx="3" transform="rotate(45 108 55)"/>
+    <rect x="105" y="45" width="6" height="20" rx="3" transform="rotate(-45 108 55)"/>
+
+    <!-- Divide sign -->
+    <circle cx="145" cy="48" r="4"/>
+    <rect x="135" y="54" width="20" height="4" rx="2"/>
+    <circle cx="145" cy="63" r="4"/>
+
+    <!-- Large number/question mark -->
+    <text x="90" y="135" font-family="Arial, sans-serif" font-size="60" font-weight="bold" text-anchor="middle" fill="white">123</text>
+  </g>
+
+  <!-- Decorative elements -->
+  <circle cx="40" cy="130" r="8" fill="white" opacity="0.2"/>
+  <circle cx="140" cy="135" r="10" fill="white" opacity="0.15"/>
+  <circle cx="155" cy="100" r="6" fill="white" opacity="0.2"/>
+</svg>
